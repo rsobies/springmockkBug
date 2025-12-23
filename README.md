@@ -13,3 +13,6 @@ comment out the line 66 `every { classNotInjected.someMethod("kk") } returns Opt
 
 ### fourth method:
 change return type of `ClassNotInjected::someMethod` from `Optional`to `Double` and the returned value of mocking method in line 66
+
+### fifth method:
+run each test method separately
